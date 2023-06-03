@@ -11,6 +11,32 @@
     <script type="text/javascript" src="./script.js">
 </script>
 
+
+	 <h1>My Book List</h1>
+  
+  <div class="form-group">
+    <form id="book-form">
+      <label for="title">Title:</label>
+      <input type="text" id="title" required>
+      <label for="author">Author:</label>
+      <input type="text" id="author" required>
+      <label for="isbn">ISBN:</label>
+      <input type="text" id="isbn" required>
+      <input type="submit" id="submit" value="Add Book">
+    </form>
+  </div>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>ISBN#</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="book-list"></tbody>
+  </table>
 </body>
 
 </html>
